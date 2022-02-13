@@ -12,7 +12,7 @@
 $C = array();
 $B = array();
 
-$B['APP_DEMO'] = true;                                      //true = enable demo version mode
+$B['APP_DEMO'] = false;                                      //true = enable demo version mode
 
 $B['APP_MESSAGES_COUNTERS'] = true;                         //true = show new messages counters
 $B['APP_MYSQLI_EXTENSION'] = true;                          //if on the server is not installed mysqli extension, set to false
@@ -31,7 +31,7 @@ $B['APP_SUPPORT_EMAIL'] = "team@brickservers.ng";
 $B['APP_AUTHOR_PAGE'] = "wallace";
 
 $B['APP_HOST'] = "palmpair.com";                 //edit to your domain, example (WARNING - without http:// and www): yourdomain.com
-$B['APP_URL'] = "https://palmpair.com";           //edit to your domain url, example (WARNING - with http:// or https://): http://yourdomain.com
+$B['APP_URL'] = "http://palmpair.com";           //edit to your domain url, example (WARNING - with http:// or https://): http://yourdomain.com
 
 $B['TEMP_PATH'] = "tmp/";                                //don`t edit this option
 $B['PHOTO_PATH'] = "photo/";                             //don`t edit this option
@@ -45,7 +45,7 @@ $B['STICKERS_PATH'] = "stickers/";                       //don`t edit this optio
 $B['GOOGLE_PLAY_LINK'] = "https://play.google.com/store/apps/";
 
 $B['CLIENT_ID'] = 1;                               //Client ID | Integer | For identify the application | Example: 12567
-$B['CLIENT_SECRET'] = "wFt4*KBoNN_kjSdG13m1k3k=";        //Client Secret | String | Text value for identify the application | Example: wFt4*KBoNN_kjSdG13m1k3k=
+$B['CLIENT_SECRET'] = "wFt4*KBoNN_kjSdG13m1k3p=";        //Client Secret | String | Text value for identify the application | Example: wFt4*KBoNN_kjSdG13m1k3k=
 
 // Stripe settings | Settings from Cross-Platform Mobile Payments | See documentation
 
@@ -54,8 +54,8 @@ $B['STRIPE_SECRET_KEY'] = "sk_test_hLnPfu0vdl457M5pZInquCtvbK";
 
 // Push notifications settings | For sending FCM (Firebase Cloud Messages) | https://raccoonsquare.com/help/how_to_create_fcm_android/
 
-$B['GOOGLE_API_KEY'] = "AAAAkHFX7b4:APA91bFCOYXCf6sBKTzUH4BqhhO8";
-$B['GOOGLE_SENDER_ID'] = "345345345345";
+$B['GOOGLE_API_KEY'] = "AAAAEG5QlIg:APA91bFUuxs_b5eofIID2ycoG4G1_uVPl_6Qf6hzMrFEcjXSbHuEdjBzQmJmT_Q8Q9P9zC1w4ZkSltpaY75iowyr4go5Rn6rs72p9Ymk3L3c9bOlkePCwChX-FGb0GhZSBFu8PfLstqW";
+$B['GOOGLE_SENDER_ID'] = "70570251400";
 
 $B['FIREBASE_API_KEY'] = $B['GOOGLE_API_KEY'];
 $B['FIREBASE_SENDER_ID'] = $B['GOOGLE_SENDER_ID'];
@@ -66,8 +66,8 @@ $B['FIREBASE_PROJECT_ID'] = "dating-app-456456";
 
 // Facebook settings | For login/signup with facebook | https://raccoonsquare.com/help/how_to_create_facebook_application_and_get_app_id_and_app_secret/
 
-$B['FACEBOOK_APP_ID'] = "345345345345";
-$B['FACEBOOK_APP_SECRET'] = "e961f4ead1ddf6ef08f1e4as91690be56b24";
+$B['FACEBOOK_APP_ID'] = "486700439529084";
+$B['FACEBOOK_APP_SECRET'] = "8ab223d917391bd05c475a0ec874e1b0";
 
 // Recaptcha settings | Create you keys for reCAPTCHA v3 | https://www.google.com/recaptcha/admin/create
 
@@ -76,13 +76,13 @@ $B['RECAPTCHA_SECRET_KEY'] = "6LfE6lEeAAAAAO8Wb4ASIZTCn5jBUORIB-9Y4bLm";
 
 // SMTP Settings | For password recovery
 
-$B['SMTP_HOST'] = 'yousite.com';                         //SMTP host
+$B['SMTP_HOST'] = 'smtp.zeptomail.com';                         //SMTP host
 $B['SMTP_AUTH'] = true;                                     //SMTP auth (Enable SMTP authentication)
 $B['SMTP_SECURE'] = 'tls';                                  //SMTP secure (Enable TLS encryption, `ssl` also accepted)
 $B['SMTP_PORT'] = 587;                                      //SMTP port (TCP port to connect to)
-$B['SMTP_EMAIL'] = 'support@yousite.com';                     //SMTP email
-$B['SMTP_USERNAME'] = 'support@yousite.com';                  //SMTP username
-$B['SMTP_PASSWORD'] = 'password';                      //SMTP password
+$B['SMTP_EMAIL'] = 'noreply@palmpair.com';                     //SMTP email
+$B['SMTP_USERNAME'] = 'emailappsmtp.1ccf4a240217581e';                  //SMTP username
+$B['SMTP_PASSWORD'] = 'Tsgan1wwGeE3__24a6cfd3de93a';                      //SMTP password
 
 //Please edit database data
 
