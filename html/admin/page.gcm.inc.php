@@ -113,7 +113,7 @@
 
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">Send Push Notification</h4>
+                                <h4 class="card-title">Send Push Notification<?php echo GOOGLE_API_KEY; ?></h4>
 
                                 <form class="form-material m-t-40"  method="post" action="/admin/gcm">
 
